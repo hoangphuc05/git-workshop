@@ -21,7 +21,40 @@ git config --global core.editor "code --wait"
 # Starting
 
 ## Cloning this repository
+You can clone this repository by using VS Code UI or using command line
+### VSCode User Interface
+Add some picture here
+### Command line
 ```bash
 git clone https://github.com/hoangphuc05/git-workshop.git
 ```
 A new folder with the name git-workshop will be create.
+
+## Creating new files
+Now, let's try adding some files to our projects.
+
+Let's open the folder `pages` and create a file with your Whitworth username, it should look something like this: `{yourWhitworthUsername}.html` (Example: `pcai22.html`)
+Open the file that you just create and add (add what??)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{Your name}'s website</title>
+</head>
+<body>
+    <h1>This is {your name} awesome website</h1>
+</body>
+</html>
+```
+
+## Staging your file
+[more explaination somewhere here]
+
+You can add all files that you made change (create, edit, delete) by using `git add`
+```sh
+git add .
+```
