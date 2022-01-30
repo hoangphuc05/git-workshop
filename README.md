@@ -58,3 +58,55 @@ You can add all files that you made change (create, edit, delete) by using `git 
 ```sh
 git add .
 ```
+
+## Git commit
+You can commit your change with a message using the flag `-m`
+```sh
+git commit -m "Your commit message"
+```
+
+## Push your change to online repository
+
+```sh
+git push
+```
+
+# Github flow on collaborating with others
+[somethign about branches based flow]
+
+## List out the current branch in your repository
+```bash
+git branch
+```
+## Create a new branch
+You can create a new branch by doing `git checkout -b <branch name>`
+
+Example:
+```bash
+git checkout -b development
+```
+
+## Change to a specific branch
+After creating a new branch, you can move your work place to that specific branch by doing
+```sh
+git checkout <branch name>
+```
+
+## Perform some change on that branch
+[do some change on the different branch]
+[commit those changes]
+
+## Seperation of branches
+One of the main reason for you to work on a seperate branch is to isolate what you are working on in a different environment untill you ready to merge those change backed to the `main` branch
+
+After commiting your change on the new branch, try switching back to the `main` branch using
+```bash
+git checkout main
+```
+You can see that all your changes are now gone as they are not a part of the main branch. You can see your changes again by switching back
+```bash
+git checkout <your new branch>
+```
+
+## Git merge
+[Merge?]
