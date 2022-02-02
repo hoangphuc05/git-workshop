@@ -5,8 +5,8 @@ Git workshop project
 # Contributors
 Add you name at line 8
 
-[Phuc Cai](mailto:pcai22@my.whitworth.edu)
-Jeremy Muriungi
+[Phuc Cai](mailto:pcai22@my.whitworth.edu)</br>
+Jeremy Muriungi</br>
 Caleb Grodegit push
 
 # Getting started
