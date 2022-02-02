@@ -3,18 +3,9 @@
 Git workshop project
 
 # Contributors
-Add you name at line 8
 
 [Phuc Cai](mailto:pcai22@my.whitworth.edu)</br>
-Jeremy Muriungi</br>
-Caleb Grodegit push
-Oof
-Sadie's been left out
-abcd
-Sadie
-Andrew's here!
-abcd456
-abcd123
+
 
 # Step 1. Setup
 ## Things you will need
@@ -94,6 +85,40 @@ If the remote repository contain changes that cannot be merged automatically, yo
 ```sh
 git push
 ```
+# Step 4. Merged & Conflict
+## Pull remote changes
+You can pull changes from remote repository by using `git pull`
+```sh
+git pull
+```
+
+## Add your own changes to the readme file
+Add your name and link to your email on line 8 of the readme file
+```markdown
+[Your name](mailto:yourEmail)</br>
+```
+
+## Stage your changes
+You can stage your changes by using `git add`
+```sh
+git add README.md
+```
+
+## Commit your changes
+You can commit your changes with a message using the flag `-m`
+```sh
+git commit -m "Your commit message"
+```
+
+## Pull remote changes
+You can pull changes from remote repository by using `git pull`
+```sh
+git pull
+```
+
+## Merge conflict
+If the remote repository contain changes that cannot be merged automatically, you will need to resolve the conflict manually
+
 
 # Github flow on collaborating with others
 [somethign about branches based flow]
