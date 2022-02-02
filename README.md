@@ -8,9 +8,15 @@ Add you name at line 8
 [Phuc Cai](mailto:pcai22@my.whitworth.edu)</br>
 Jeremy Muriungi</br>
 Caleb Grodegit push
+<<<<<<< HEAD
 Oof
 Sadie's been left out
 abcd
+=======
+Sadie
+Andrew's here!
+
+>>>>>>> 18062094def7b3b4579a2c14dc1c5be85feac1ef
 # Getting started
 ## Things you will need
 1. [Git bash](https://git-scm.com/downloads)
