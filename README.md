@@ -6,6 +6,8 @@ Git workshop project
 Add you name at line 8
 
 [Phuc Cai](mailto:pcai22@my.whitworth.edu)
+Jeremy Muriungi
+
 # Getting started
 ## Things you will need
 1. [Git bash](https://git-scm.com/downloads)
