@@ -5,6 +5,7 @@ Git workshop project
 # Contributors
 Add you name at line 8
 Jeremy Muriungi
+Caleb Grodegit push
 
 # Getting started
 ## Things you will need
