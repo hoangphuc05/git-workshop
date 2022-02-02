@@ -59,7 +59,8 @@ Open the file that you just create and add (add what??)
 ```
 
 ## Staging your file
-[more explaination somewhere here]
+New, modified, and/or deleted files need to be staged before pushing them to the master 
+branch on git.
 
 You can add all files that you made change (create, edit, delete) by using `git add`
 ```sh
