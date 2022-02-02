@@ -13,7 +13,11 @@ Sadie's been left out
 abcd
 Sadie
 Andrew's here!
+<<<<<<< HEAD
 abcd456
+=======
+abcd123
+>>>>>>> 9ee5ebb298d1318288d4e4174172ed68383a7792
 # Getting started
 ## Things you will need
 1. [Git bash](https://git-scm.com/downloads)
