@@ -1,4 +1,4 @@
-# Git workshop
+# Git workshop Phuc's version
 
 Git workshop project
 
