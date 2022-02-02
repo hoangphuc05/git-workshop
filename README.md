@@ -8,7 +8,11 @@ Add you name at line 8
 [Phuc Cai](mailto:pcai22@my.whitworth.edu)</br>
 Jeremy Muriungi</br>
 Caleb Grodegit push
+<<<<<<< HEAD
 Oof
+=======
+Sadie's been left out
+>>>>>>> df96bcf03fbde7d9e9dd898c42e222e12b28d0e2
 
 # Getting started
 ## Things you will need
@@ -60,7 +64,8 @@ Open the file that you just create and add (add what??)
 ```
 
 ## Staging your file
-[more explaination somewhere here]
+New, modified, and/or deleted files need to be staged before pushing them to the master 
+branch on git.
 
 You can add all files that you made change (create, edit, delete) by using `git add`
 ```sh
