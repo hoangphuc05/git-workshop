@@ -1,6 +1,10 @@
-# Git workshop Phuc's version
+# Git workshop
 
 Git workshop project
+
+# Contributors
+Add you name at line 8
+
 
 # Getting started
 ## Things you will need
