@@ -74,6 +74,14 @@ You can commit your change with a message using the flag `-m`
 ```sh
 git commit -m "Your commit message"
 ```
+## Pull remote changes
+You can pull changes from remote repository by using `git pull`
+```sh
+git pull
+```
+### Merge conflict
+If the remote repository contain changes that cannot be merged automatically, you will need to resolve the conflict manually
+
 
 ## Push your change to online repository
 
