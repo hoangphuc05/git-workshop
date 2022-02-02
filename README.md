@@ -4,7 +4,7 @@ Git workshop project
 
 # Contributors
 Add you name at line 8
-
+Jeremy Muriungi
 
 # Getting started
 ## Things you will need
