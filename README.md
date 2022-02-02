@@ -8,7 +8,8 @@ Add you name at line 8
 [Phuc Cai](mailto:pcai22@my.whitworth.edu)</br>
 Jeremy Muriungi</br>
 Caleb Grodegit push
-Sadie's been left out
+Sadie
+Andrew's here!
 
 # Getting started
 ## Things you will need
