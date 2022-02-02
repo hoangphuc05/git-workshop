@@ -9,7 +9,7 @@ Add you name at line 8
 Jeremy Muriungi
 Caleb Grodegit push
 
-# Getting started
+# Step 1. Setup
 ## Things you will need
 1. [Git bash](https://git-scm.com/downloads)
 2. [Visual studio code](https://code.visualstudio.com/)
@@ -25,7 +25,7 @@ You can also set Git to use your favorite editor when resolving conflict, create
 git config --global core.editor "code --wait"
 ```
 
-# Starting
+# Step 2. Getting Started
 
 ## Cloning this repository
 You can clone this repository by using VS Code UI or using command line
@@ -58,6 +58,7 @@ Open the file that you just create and add (add what??)
 </html>
 ```
 
+# Step 3. Basic Commands
 ## Staging your file
 [more explaination somewhere here]
 
