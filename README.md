@@ -5,9 +5,16 @@ Git workshop project
 # Contributors
 Add you name at line 8
 
-[Phuc Cai](mailto:pcai22@my.whitworth.edu)
-Jeremy Muriungi
+[Phuc Cai](mailto:pcai22@my.whitworth.edu)</br>
+Jeremy Muriungi</br>
 Caleb Grodegit push
+Oof
+Sadie's been left out
+abcd
+Sadie
+Andrew's here!
+abcd456
+abcd123
 
 # Step 1. Setup
 ## Things you will need
@@ -60,7 +67,8 @@ Open the file that you just create and add (add what??)
 
 # Step 3. Basic Commands
 ## Staging your file
-[more explaination somewhere here]
+New, modified, and/or deleted files need to be staged before pushing them to the master 
+branch on git.
 
 You can add all files that you made change (create, edit, delete) by using `git add`
 ```sh
@@ -72,6 +80,14 @@ You can commit your change with a message using the flag `-m`
 ```sh
 git commit -m "Your commit message"
 ```
+## Pull remote changes
+You can pull changes from remote repository by using `git pull`
+```sh
+git pull
+```
+### Merge conflict
+If the remote repository contain changes that cannot be merged automatically, you will need to resolve the conflict manually
+
 
 ## Push your change to online repository
 
