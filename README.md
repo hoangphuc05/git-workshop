@@ -109,4 +109,4 @@ git checkout <your new branch>
 ```
 
 ## Git merge
-[Merge?]
+2 way to merge? Pull request to merge and merge directly?
