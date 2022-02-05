@@ -160,17 +160,10 @@ You can always come back to main or to any other branch by doing
 git checkout main
 ```
 
-## Seperation of branches
-One of the main reason for you to work on a seperate branch is to isolate what you are working on in a different environment untill you ready to merge those change backed to the `main` branch
+## Merging your changes
+Once you want to publish your change to main, you can switch to `main` branch, and merge your current development branch to branch
 
-After commiting your change on the new branch, try switching back to the `main` branch using
-```bash
+```sh
 git checkout main
+git merge development
 ```
-You can see that all your changes are now gone as they are not a part of the main branch. You can see your changes again by switching back
-```bash
-git checkout <your new branch>
-```
-
-## Git merge
-2 way to merge? Pull request to merge and merge directly?
