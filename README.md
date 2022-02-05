@@ -1,6 +1,9 @@
 # Git workshop
 
-Git workshop project
+## Git workshop project - Let's build a website together</br>
+Made by Whitworth ACM club - 2022</br>
+Website link: [acm.meorung.me](https://acm.meorung.me)<br>
+Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc05/git-workshop)<br>
 
 # Contributors
 
@@ -77,8 +80,15 @@ You can pull changes from remote repository by using `git pull`
 git pull
 ```
 ### Merge conflict
-If the remote repository contain changes that cannot be merged automatically, you will need to resolve the conflict manually
+If the remote repository contain changes that cannot be merged automatically, you will need to resolve the conflict manually<br>
+In this specific example, you want to add everyone name. Choose `accept both change` to add both remote and local changes.
 
+### Add your own merge and commit it before pushing
+```sh
+git add .
+git commit -m "Merge <yourname> to the contributor list"
+git pull
+```
 
 ## Push your change to online repository
 
@@ -93,7 +103,7 @@ git pull
 ```
 
 ## Add your own changes to the readme file
-Add your name and link to your email on line 8 of the readme file
+Add your name and link to your email on line 10 of the readme file
 ```markdown
 [Your name](mailto:yourEmail)</br>
 ```
@@ -119,9 +129,8 @@ git pull
 ## Merge conflict
 If the remote repository contain changes that cannot be merged automatically, you will need to resolve the conflict manually
 
-
-# Github flow on collaborating with others
-[somethign about branches based flow]
+# Branching
+Collaborating and making change directly on `main` can be problematic sometimes, especially when there are services relying on your `main` code base to function. To avoid publishing unfinished code on `main` while still saving and sharing your code with your team, you can create a new branch (ex: `development`) and publish your code on that branch. Once the feature is properly implemented, you can merge your code from `development` to `main`
 
 ## List out the current branch in your repository
 ```bash
@@ -144,6 +153,12 @@ git checkout <branch name>
 ## Perform some change on that branch
 [do some change on the different branch]
 [commit those changes]
+
+## Coming back to main
+You can always come back to main or to any other branch by doing
+```sh
+git checkout main
+```
 
 ## Seperation of branches
 One of the main reason for you to work on a seperate branch is to isolate what you are working on in a different environment untill you ready to merge those change backed to the `main` branch
