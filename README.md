@@ -7,10 +7,7 @@ Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc0
 
 # Contributors
 
-[Phuc Cai](mailto:pcai22@my.whitworth.edu)<br/>
-[Jeremy Muriungi](mailto:jmuriungi18@my.whitworth.edu)<br/>
-[Andrew](Something)<br>
-[2nd Phuc](mailto:example@example.com)<br/>
+
 
 # Step 1. Setup
 ## Things you will need
@@ -40,7 +37,7 @@ A new folder with the name git-workshop will be create.
 Now, let's try adding some files to our projects.
 
 Let's open the folder `pages` and create a file with your Whitworth username, it should look something like this: `{yourWhitworthUsername}.html` (Example: `pcai22.html`)
-Open the file that you just create and add (add what??)
+Open the file that you just create and add your own website. Here's a template:
 
 ```html
 <!DOCTYPE html>
@@ -77,16 +74,7 @@ You can pull changes from remote repository by using `git pull`
 ```sh
 git pull
 ```
-### Merge conflict
-If the remote repository contain changes that cannot be merged automatically, you will need to resolve the conflict manually<br/>
-In this specific example, you want to add everyone name. Choose `accept both change` to add both remote and local changes.
 
-### Add your own merge and commit it before pushing
-```sh
-git add .
-git commit -m "Merge <yourname> to the contributor list"
-git pull
-```
 
 ## Push your change to online repository
 
@@ -119,14 +107,22 @@ git commit -m "Your commit message"
 ```
 
 ## Pull remote changes
+**Don't do this until we told you to**<br/>
 You can pull changes from remote repository by using `git pull`
 ```sh
 git pull
 ```
-
 ## Merge conflict
-If the remote repository contain changes that cannot be merged automatically, you will need to resolve the conflict manually
+If the remote repository contain changes that cannot be merged automatically, you will need to resolve the conflict manually<br/>
+In this specific example, you want to add everyone name. Choose `accept both change` to add both remote and local changes.
 
+### Add your own merge and commit it before pushing
+```sh
+git add .
+git commit -m "Merge <yourname> to the contributor list"
+git pull
+git push
+```
 # Branching
 Collaborating and making change directly on `main` can be problematic sometimes, especially when there are services relying on your `main` code base to function. To avoid publishing unfinished code on `main` while still saving and sharing your code with your team, you can create a new branch (ex: `development`) and publish your code on that branch. Once the feature is properly implemented, you can merge your code from `development` to `main`
 
