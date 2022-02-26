@@ -8,6 +8,8 @@ Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc0
 # Contributors
 
 [Katrina Costales](mailto:katcostales10@gmail.com)<br/>
+[Andrew Bergman](mailto:abergman23@my.whitworth.edu)<br/>
+
 [Phuc](mailto:pca22@my.whitworth.edu)<br/>
 [not Phuc](mailto:notphuc@gmail.com)<br/>
 # Step 1. Setup
