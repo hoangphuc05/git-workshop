@@ -6,8 +6,7 @@ Website link: [acm.meorung.me](https://acm.meorung.me)<br/>
 Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc05/git-workshop)<br/>
 
 # Contributors
-
-
+[Abdallah Abualkheir (Abed)](mailto:aabualkheir23@my.whitworth.edu)<br/>
 # Step 1. Setup
 ## Things you will need
 1. [Git bash](https://git-scm.com/downloads)
