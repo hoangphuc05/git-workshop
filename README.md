@@ -8,6 +8,7 @@ Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc0
 # Contributors
 
 [Munkhoo](mailto:mtserenpurev24@my.whitworth.edu)<br/>
+[Phuc](mailto:pca22@my.whitworth.edu)<br/>
 [not Phuc](mailto:notphuc@gmail.com)<br/>
 # Step 1. Setup
 ## Things you will need
