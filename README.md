@@ -8,7 +8,6 @@ Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc0
 # Contributors
 
 
-
 # Step 1. Setup
 ## Things you will need
 1. [Git bash](https://git-scm.com/downloads)
