@@ -6,8 +6,10 @@ Website link: [acm.meorung.me](https://acm.meorung.me)<br/>
 Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc05/git-workshop)<br/>
 
 # Contributors
+[Abdallah Abualkheir (Abed)](mailto:aabualkheir23@my.whitworth.edu)<br/>
 
 [Katrina Costales](mailto:katcostales10@gmail.com)<br/>
+[Munkhoo](mailto:mtserenpurev24@my.whitworth.edu)<br/>
 [Andrew Bergman](mailto:abergman23@my.whitworth.edu)<br/>
 
 [Phuc](mailto:pca22@my.whitworth.edu)<br/>
