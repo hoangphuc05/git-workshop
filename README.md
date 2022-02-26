@@ -15,11 +15,6 @@ Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc0
 [Andrew Bergman](mailto:abergman23@my.whitworth.edu)<br/>
 [Viktor Pisarenko](mailto:vpisarenko23@my.whitworth.edu)<br/>
 [Phuc](mailto:pca22@my.whitworth.edu)<br/>
-<<<<<<< HEAD
-[Niz](mailto:nshakya23@my.whitworth.edu)<br/>
-
-=======
->>>>>>> 39b077c2d690e9bb1ff7a8454311a944276f2d25
 # Step 1. Setup
 ## Things you will need
 1. [Git bash](https://git-scm.com/downloads)
