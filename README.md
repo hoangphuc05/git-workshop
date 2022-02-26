@@ -7,6 +7,11 @@ Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc0
 
 # Contributors
 [Abdallah Abualkheir (Abed)](mailto:aabualkheir23@my.whitworth.edu)<br/>
+
+[Andrew Bergman](mailto:abergman23@my.whitworth.edu)<br/>
+
+[Phuc](mailto:pca22@my.whitworth.edu)<br/>
+[not Phuc](mailto:notphuc@gmail.com)<br/>
 # Step 1. Setup
 ## Things you will need
 1. [Git bash](https://git-scm.com/downloads)
