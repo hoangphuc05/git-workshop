@@ -8,6 +8,8 @@ Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc0
 # Contributors
 "I'm trying to cause a conflict"
 [Abdallah Abualkheir (Abed)](mailto:aabualkheir23@my.whitworth.edu)<br/>
+[Ava](mailto:adennis25@my.whitworth.edu)<br/>
+
 [Kaelan Kramer](mailto:kkramer22@my.whitworth.edu)<br/>
 [Katrina Costales](mailto:katcostales10@gmail.com)<br/>
 [Niz](mailto:nshakya23@my.whitworth.edu)<br/>
