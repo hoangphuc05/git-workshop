@@ -7,7 +7,7 @@ Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc0
 
 # Contributors
 
-
+[Munkhoo](mailto:mtserenpurev24@my.whitworth.edu)<br/>
 # Step 1. Setup
 ## Things you will need
 1. [Git bash](https://git-scm.com/downloads)
