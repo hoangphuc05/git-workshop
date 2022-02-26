@@ -6,6 +6,7 @@ Website link: [acm.meorung.me](https://acm.meorung.me)<br/>
 Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc05/git-workshop)<br/>
 
 # Contributors
+<<<<<<< HEAD
 "I'm trying to cause a conflict"
 [Abdallah Abualkheir (Abed)](mailto:aabualkheir23@my.whitworth.edu)<br/>
 [Ava](mailto:adennis25@my.whitworth.edu)<br/>
@@ -17,6 +18,13 @@ Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc0
 [Andrew Bergman](mailto:abergman23@my.whitworth.edu)<br/>
 [Viktor Pisarenko](mailto:vpisarenko23@my.whitworth.edu)<br/>
 [Phuc](mailto:pca22@my.whitworth.edu)<br/>
+=======
+# CHECK ONE
+
+[Michael Lie](mailto:mlie23@my.whitworth.edu)<br/>
+
+
+>>>>>>> a81046dca6feaf6fd644efcd7dc7f088ca692463
 # Step 1. Setup
 ## Things you will need
 1. [Git bash](https://git-scm.com/downloads)
