@@ -1,5 +1,24 @@
+<?php
+    // throw 500 error if see the title "phuc's broken page"
+    $path = "git-workshop/pages";
+    $files = array_diff(scandir($path), array('.','..'));
+    // define("DARKMODE", "dark");
+    foreach ($files as $page) {
+        $dom = new DOMDocument();
+        if ($dom->loadHTMLFile("git-workshop/pages/".$page)){
+            if (strcasecmp($dom->getElementsByTagName("title")[0]?->nodeValue??"_notitle", "Phuc's broken website") == 0) {
+                header("HTTP/1.1 500 Internal Server Error");
+                exit();
+            }
+            if (strcasecmp($dom->getElementsByTagName("title")[0]?->nodeValue??"_notitle", "Phuc's darkmode") == 0) {
+                define("DARKMODE", "dark");
+            }
+        }
+    }
+
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="<?php echo (defined("DARKMODE") ? DARKMODE:"") ?>">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +26,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
+            darkMode: 'class',
             theme: {
                 extend: {
                     colors: {
@@ -17,10 +37,18 @@
         }
     </script>
     <!-- <link href="https://{{cdn}}/prismjs@v1.x/themes/prism.css" rel="stylesheet" /> -->
-    <title>ACM main site</title>
+    <title>ACM main sites</title>
+    <?php
+        if (defined("DARKMODE")){
+            echo("<style>
+                p {color: #94A3B8;}
+            </style>");
+        }
+    ?>
 </head>
+
 <body>
-    <nav class="bg-color1 flex justify-between px-5 py-2">
+    <nav class="bg-color1 flex justify-between px-5 py-2 dark:bg-neutral-700">
         <div class="flex space-x-4">
             <a>ACM</a>
             <a>First link</a>
@@ -28,7 +56,7 @@
         <div>Right place</div>
     </nav>
     <!-- Main body -->
-    <div class="flex md:justify-center p-3">
+    <div class="flex md:justify-center p-3 dark:bg-neutral-800">
         <div class="md:max-w-2xl flex flex-col">
 
 <!-- Read the content in the pages folder and output it -->
@@ -44,9 +72,9 @@
     foreach ($files as $page) {
         $dom = new DOMDocument();
         if ($dom->loadHTMLFile("git-workshop/pages/".$page)){
-            echo("<a href=\"git-workshop/pages/".$page."\" class=\"rounded-md p-3 border drop-shadow-md hover:drop-shadow-xl hover:bg-gray-100\">");
-            echo("<p class=\"font-semibold my-2\">".($dom->getElementsByTagName("title")[0]?->nodeValue??"_notitle")."</p>");
-            echo("Made by ".substr($page, 0, strrpos($page, ".")));
+            echo("<a href=\"git-workshop/pages/".$page."\" class=\"  rounded-md p-3 border drop-shadow-md dark:hover:bg-gray-700 hover:drop-shadow-xl hover:bg-gray-100\">");
+            echo("<p class=\"font-semibold dark:text-slate-100 my-2\">".($dom->getElementsByTagName("title")[0]?->nodeValue??"_notitle")."</p>");
+            echo("<p class=\"dark:text-slate-500\">Made by ".substr($page, 0, strrpos($page, "."))."</p>");
             echo("</a>");
         }
     }
@@ -73,23 +101,23 @@
     // handling header
     $Parsedown->headerAttributes = function($Text, $Attributes, &$Element, $Level) {
         if ($Level === 1) {
-            return ['class' => 'text-2xl font-bold border-b border-gray-300 mb-2 mt-5'];
+            return ['class' => 'text-2xl dark:text-white font-bold border-b border-gray-300 mb-2 mt-5'];
         }
         if ($Level === 2){
-            return ['class' => 'text-xl border-b border-gray-200 font-bold mt-4 mb-1'];
+            return ['class' => 'text-xl dark:text-slate-200 border-b border-gray-200 font-bold mt-4 mb-1'];
         }
         if ($Level === 3) {
-            return ['class' => 'text-xl font-semibold mt-3'];
+            return ['class' => 'text-xl dark:text-slate-400 font-semibold mt-3'];
         }
         if ($Level === 4) {
-            return ['class' => 'text-lg font-semibold'];
+            return ['class' => 'text-lg dark:text-slate-500 font-semibold'];
         }
         return ['class'=> $Level];
     };
-    $Parsedown->codeHtml = '<code class="bg-gray-100 px-2">%s</code>';
-    $Parsedown->blockCodeHtml = '<pre class="bg-gray-100 py-3 px-5 my-5 rounded-md"><code >%s</code></pre>';
+    $Parsedown->codeHtml = '<code class="bg-gray-100 dark:bg-gray-600 px-2">%s</code>';
+    $Parsedown->blockCodeHtml = '<pre class="bg-gray-100 dark:bg-gray-600 dark:text-gray-300 py-3 px-5 my-5 rounded-md"><code>%s</code></pre>';
     $Parsedown->linkAttributes = function($Text, $Attributes, &$Element, $Level) {
-        return ['class' => 'font-medium underline decoration-sky-500'];
+        return ['class' => 'font-medium dark:text-slate-400 underline decoration-sky-500'];
     };
     
     echo $Parsedown->text($readMe);
