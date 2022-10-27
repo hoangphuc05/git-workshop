@@ -61,25 +61,34 @@
 
 <!-- Read the content in the pages folder and output it -->
         <div>
-            <p>List of available pages</p>
-            <div class="grid md:grid-cols-3 grid-cols-1 gap-4"> 
 <?php
     ini_set('display_errors', '1');
     ini_set('display_startup_errors', '1');
     error_reporting(E_ALL);
-    $path = "git-workshop/pages";
-    $files = array_diff(scandir($path), array('.','..'));
-    foreach ($files as $page) {
-        $dom = new DOMDocument();
-        if ($dom->loadHTMLFile("git-workshop/pages/".$page)){
-            echo("<a href=\"git-workshop/pages/".$page."\" class=\"  rounded-md p-3 border drop-shadow-md dark:hover:bg-gray-700 hover:drop-shadow-xl hover:bg-gray-100\">");
-            echo("<p class=\"font-semibold dark:text-slate-100 my-2\">".($dom->getElementsByTagName("title")[0]?->nodeValue??"_notitle")."</p>");
-            echo("<p class=\"dark:text-slate-500\">Made by ".substr($page, 0, strrpos($page, "."))."</p>");
-            echo("</a>");
+
+    function fetchAllPage($path) {
+        echo("<div class=\"grid md:grid-cols-3 grid-cols-1 gap-4\"> ");
+        $files = array_diff(scandir($path), array('.','..'));
+        foreach ($files as $page) {
+            $dom = new DOMDocument();
+            if ($dom->loadHTMLFile($path."/".$page)){
+                echo("<a href=\"".$path."/".$page."\" class=\"  rounded-md p-3 border drop-shadow-md dark:hover:bg-gray-700 hover:drop-shadow-xl hover:bg-gray-100\">");
+                echo("<p class=\"font-semibold dark:text-slate-100 my-2\">".($dom->getElementsByTagName("title")[0]?->nodeValue??"_notitle")."</p>");
+                echo("<p class=\"dark:text-slate-500\">Made by ".substr($page, 0, strrpos($page, "."))."</p>");
+                echo("</a>");
+            }
         }
+        echo("</div>");
     }
+    echo("<h2 class=\"py-3 font-semibold\">Websites made in this Git workshop</h2>");
+
+    fetchAllPage("git-workshop/pages");
+
+    echo("<h2 class=\"py-3 font-semibold\">Websites made in Spirng 2022 Git workshop</h2>");
+    fetchAllPage("git-workshop/pages-spring-22");
+
+    
 ?>
-            </div>
         </div>
 
 <!-- Read readme and output the content -->

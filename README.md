@@ -6,7 +6,7 @@ Website link: [acm.meorung.me](https://acm.meorung.me)<br/>
 Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc05/git-workshop)<br/>
 
 # Contributors
-"I'm trying to cause a conflict"
+
 [Abdallah Abualkheir (Abed)](mailto:aabualkheir23@my.whitworth.edu)<br/>
 [Ava](mailto:adennis25@my.whitworth.edu)<br/>
 [Manix Torres](mailto:ianoka-ayembe23@my.whitworth.edu)<br/>
@@ -18,9 +18,6 @@ Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc0
 [Viktor Pisarenko](mailto:vpisarenko23@my.whitworth.edu)<br/>
 [Phuc](mailto:pca22@my.whitworth.edu)<br/>
 [Michael Lie](mailto:mlie23@my.whitworth.edu)<br/>
-# CHECK ONE
-
-
 
 
 # Step 1. Setup
