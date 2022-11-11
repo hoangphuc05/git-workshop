@@ -62,9 +62,9 @@
 <!-- Read the content in the pages folder and output it -->
         <div>
 <?php
-    ini_set('display_errors', '1');
-    ini_set('display_startup_errors', '1');
-    error_reporting(E_ALL);
+    // ini_set('display_errors', '1');
+    // ini_set('display_startup_errors', '1');
+    // error_reporting(E_ALL);
 
     function fetchAllPage($path) {
         echo("<div class=\"grid md:grid-cols-3 grid-cols-1 gap-4\"> ");
@@ -93,9 +93,9 @@
 
 <!-- Read readme and output the content -->
 <?php
-    ini_set('display_errors', '1');
-    ini_set('display_startup_errors', '1');
-    error_reporting(E_ALL);
+    // ini_set('display_errors', '1');
+    // ini_set('display_startup_errors', '1');
+    // error_reporting(E_ALL);
     
     // require libraries
     require './lib/Parsedown.php';
