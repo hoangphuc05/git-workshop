@@ -80,11 +80,11 @@
         }
         echo("</div>");
     }
-    echo("<h2 class=\"py-3 font-semibold\">Websites made in this Git workshop</h2>");
+    echo("<h2 class=\"text-xl dark:text-slate-200 border-b border-gray-200 font-bold mt-4 mb-1\">Websites made in this Git workshop</h2>");
 
     fetchAllPage("git-workshop/pages");
 
-    echo("<h2 class=\"py-3 font-semibold\">Websites made in Spirng 2022 Git workshop</h2>");
+    echo("<h2 class=\"text-xl dark:text-slate-200 border-b border-gray-200 font-bold mt-4 mb-1\">Websites made in Spirng 2022 Git workshop</h2>");
     fetchAllPage("git-workshop/pages-spring-22");
 
     
