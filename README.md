@@ -6,7 +6,7 @@ Website link: [acm.meorung.me](https://acm.meorung.me)<br/>
 Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc05/git-workshop)<br/>
 
 # Contributors
-
+## Fall 2022 Contributors
 
 
 ## Spring 2022 Contributors
