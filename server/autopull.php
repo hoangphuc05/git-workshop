@@ -14,7 +14,12 @@ function run() {
     // check that the webhook coming from the expected repo and branch
     if (($payload->repository->url === "https://github.com/hoangphuc05/git-workshop") 
         && $payload->ref === "refs/heads/main") {
-       shell_exec("./git-pull.sh"); 
+        echo ("pulling");
+        shell_exec("./git-pull.sh"); 
+    }
+    else {
+        http_response_code(400);
+        echo("Not pulling");
     }
 }
 
