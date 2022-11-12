@@ -8,6 +8,17 @@ Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc0
 
 # Contributors
 ## Fall 2022 Contributors
+<<<<<<< HEAD
+<<<<<<< HEAD
+[Alondra](mailto:alondrarodriguez24@my.whitworth.edu)<br/>
+=======
+=======
+[Josh Creasey](mailto:jcreasey23@my.whitworth.edu)<br/>
+>>>>>>> f229e8d7285e40192fc031662e00b373e17eab16
+[Phuc](mailto:pcai22@my.whitworth.edu)<br/>
+[Owen Foster](mailto:ofoster24@my.whitworth.edu)<br/>
+>>>>>>> d61abc584d39e97ea91dbed8b9770465a68d7d2e
+=======
  [Cameron](mailto:cjohnston20@my.whitworth.edu)<br/>
  [Gabe](mailto:gshore26@my.whitworth.edu)<br/>
 [Josh Creasey](mailto:jcreasey23@my.whitworth.edu)<br/>
@@ -23,6 +34,7 @@ Replace this line (line 10), with the following content: [Jaga](mailto:jmunkhbat
 [Owen Foster](mailto:ofoster24@my.whitworth.edu)<br/>
 fee139a722e7c4
 [Payton L](mailto:plo23@my.whitworth.edu)<br/>
+>>>>>>> 344f4e7d6e32f3b5885e9c0e60fc77a40be12d10
 
 ## Spring 2022 Contributors
 [Abdallah Abualkheir (Abed)](mailto:aabualkheir23@my.whitworth.edu)<br/>
