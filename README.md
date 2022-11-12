@@ -40,7 +40,7 @@ fee139a722e7c4
 [Abdallah Abualkheir (Abed)](mailto:aabualkheir23@my.whitworth.edu)<br/>
 [Ava](mailto:adennis25@my.whitworth.edu)<br/>
 [Manix Torres](mailto:ianoka-ayembe23@my.whitworth.edu)<br/>
-[Kaelan Kramer](mailto:kkramer22@my.whitworth.edu)<br/>
+[Kaelan Kramer](mailto:kkramer22@my.whitworth.edu)<br/>git 
 [Katrina Costales](mailto:katcostales10@gmail.com)<br/>
 [Niz](mailto:nshakya23@my.whitworth.edu)<br/>
 [Munkhoo](mailto:mtserenpurev24@my.whitworth.edu)<br/>
