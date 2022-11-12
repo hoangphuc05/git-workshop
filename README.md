@@ -8,7 +8,7 @@ Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc0
 
 # Contributors
 ## Fall 2022 Contributors
-
+[Ella Bongat](mailto:ebongat26@my.whitworth.edu)<br/>
  [Cameron](mailto:cjohnston20@my.whitworth.edu)<br/>
  [Gabe](mailto:gshore26@my.whitworth.edu)<br/>
 [Josh Creasey](mailto:jcreasey23@my.whitworth.edu)<br/>
