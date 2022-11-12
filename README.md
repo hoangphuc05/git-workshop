@@ -8,6 +8,10 @@ Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc0
 
 # Contributors
 ## Fall 2022 Contributors
+ [Cameron](mailto:cjohnston20@my.whitworth.edu)<br/>
+ [Gabe](mailto:gshore26@my.whitworth.edu)<br/>
+[Josh Creasey](mailto:jcreasey23@my.whitworth.edu)<br/>
+[Phuc](mailto:pcai22@my.whitworth.edu)<br/>
 Replace this line (line 10), with the following content: [Jaga](mailto:jmunkhbat24@my.whitworth.edu)<br/>
 [Owen Foster](mailto:ofoster24@my.whitworth.edu)<br/>
 fee139a722e7c4
