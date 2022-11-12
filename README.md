@@ -22,7 +22,7 @@ Replace this line (line 10), with the following content: [Your name](mailto:your
 [Viktor Pisarenko](mailto:vpisarenko23@my.whitworth.edu)<br/>
 [Phuc](mailto:pca22@my.whitworth.edu)<br/>
 [Michael Lie](mailto:mlie23@my.whitworth.edu)<br/>
-
+[Owen Foster](mailto:ofoster24@my.whitworth.edu)<br/>
 
 # Step 1. Setup
 ## Things you will need
