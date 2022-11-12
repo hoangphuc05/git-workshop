@@ -8,7 +8,11 @@ Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc0
 
 # Contributors
 ## Fall 2022 Contributors
+<<<<<<< HEAD
 [Eli Chapman](mailto:echapman26@my.whitworth.edu)<br/>
+=======
+[Owen Foster](mailto:ofoster24@my.whitworth.edu)<br/>
+>>>>>>> 35f684dd60afaa3f41af3253f5fee139a722e7c4
 
 ## Spring 2022 Contributors
 [Abdallah Abualkheir (Abed)](mailto:aabualkheir23@my.whitworth.edu)<br/>
@@ -22,7 +26,6 @@ Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc0
 [Viktor Pisarenko](mailto:vpisarenko23@my.whitworth.edu)<br/>
 [Phuc](mailto:pca22@my.whitworth.edu)<br/>
 [Michael Lie](mailto:mlie23@my.whitworth.edu)<br/>
-
 
 # Step 1. Setup
 ## Things you will need
