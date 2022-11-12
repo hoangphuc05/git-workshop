@@ -12,8 +12,17 @@ Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc0
  [Gabe](mailto:gshore26@my.whitworth.edu)<br/>
 [Lauren Podhajsky](mailto:lpodhajsky26@my.whitworth.edu)<br/>
 [Josh Creasey](mailto:jcreasey23@my.whitworth.edu)<br/>
+[Josh Creasey](mailto:jcreasey23@my.whitworth.edu)<br/>
+[Eli Chapman](mailto:echapman26@my.whitworth.edu)<br/>
+=======
+ BALLER BOIS 4 LYFE CAM & GABE RULEZZZZ
+ [Cameron](mailto:cjohnston20@my.whitworth.edu)<br/>
+ [Gabe](mailto:gshore26@my.whitworth.edu)<br/>
+[Josh Creasey](mailto:jcreasey23@my.whitworth.edu)<br/>
+>>>>>>> 344f4e7d6e32f3b5885e9c0e60fc77a40be12d10
 [Phuc](mailto:pcai22@my.whitworth.edu)<br/>
 [Owen Foster](mailto:ofoster24@my.whitworth.edu)<br/>
+[Payton L](mailto:plo23@my.whitworth.edu)<br/>
 
 
 ## Spring 2022 Contributors
