@@ -1,8 +1,5 @@
 # Git workshop
-<img src=https://www.wwe.com/f/styles/wwe_large/public/all/2019/10/RAW_06202016rf_1606--3d3997f53e6f3e9277cd5a67fbd8f31f.jpg
-width="600"
-height="300"
->
+
 ## Git workshop project - Let's build a website together<br/>
 Made by Whitworth ACM club - 2022<br/>
 Website link: [acm.meorung.me](https://acm.meorung.me)<br/>
