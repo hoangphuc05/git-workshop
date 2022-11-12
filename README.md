@@ -9,6 +9,8 @@ Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc0
 # Contributors
 ## Fall 2022 Contributors
 [Josh Creasey](mailto:jcreasey23@my.whitworth.edu)<br/>
+[Phuc](mailto:pcai22@my.whitworth.edu)<br/>
+[Owen Foster](mailto:ofoster24@my.whitworth.edu)<br/>
 
 ## Spring 2022 Contributors
 [Abdallah Abualkheir (Abed)](mailto:aabualkheir23@my.whitworth.edu)<br/>
