@@ -8,13 +8,46 @@ Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc0
 
 # Contributors
 ## Fall 2022 Contributors
+<<<<<<< HEAD
+<<<<<<< HEAD
+[Alondra](mailto:alondrarodriguez24@my.whitworth.edu)<br/>
+=======
+=======
+[Josh Creasey](mailto:jcreasey23@my.whitworth.edu)<br/>
+[Hassan Raza](mailto:hshah26@my.whitworth.edu)<br/>
+>>>>>>> f229e8d7285e40192fc031662e00b373e17eab16
+[Phuc](mailto:pcai22@my.whitworth.edu)<br/>
 [Owen Foster](mailto:ofoster24@my.whitworth.edu)<br/>
+>>>>>>> d61abc584d39e97ea91dbed8b9770465a68d7d2e
+=======
+ [Cameron](mailto:cjohnston20@my.whitworth.edu)<br/>
+ [Gabe](mailto:gshore26@my.whitworth.edu)<br/>
+[Lauren Podhajsky](mailto:lpodhajsky26@my.whitworth.edu)<br/>
+[Josh Creasey](mailto:jcreasey23@my.whitworth.edu)<br/>
+[Josh Creasey](mailto:jcreasey23@my.whitworth.edu)<br/>
+[Eli Chapman](mailto:echapman26@my.whitworth.edu)<br/>
+ BALLER BOIS 4 LYFE CAM & GABE RULEZZZZ
+ [Cameron](mailto:cjohnston20@my.whitworth.edu)<br/>
+ [Gabe](mailto:gshore26@my.whitworth.edu)<br/>
+[Josh Creasey](mailto:jcreasey23@my.whitworth.edu)<br/>
+>>>>>>> 93b73d2d149f7ce6444d3509c08de8dc1bab5969
+[Phuc](mailto:pcai22@my.whitworth.edu)<br/>
+Replace this line (line 10), with the following content: [Jaga](mailto:jmunkhbat24@my.whitworth.edu)<br/>
+[Owen Foster](mailto:ofoster24@my.whitworth.edu)<br/>
+fee139a722e7c4
+[Payton L](mailto:plo23@my.whitworth.edu)<br/>
+[Jrivera](jrivera26@my.whitworth.edu)<br/>
+
+
+
+
+
 
 ## Spring 2022 Contributors
 [Abdallah Abualkheir (Abed)](mailto:aabualkheir23@my.whitworth.edu)<br/>
 [Ava](mailto:adennis25@my.whitworth.edu)<br/>
 [Manix Torres](mailto:ianoka-ayembe23@my.whitworth.edu)<br/>
-[Kaelan Kramer](mailto:kkramer22@my.whitworth.edu)<br/>
+[Kaelan Kramer](mailto:kkramer22@my.whitworth.edu)<br/>git 
 [Katrina Costales](mailto:katcostales10@gmail.com)<br/>
 [Niz](mailto:nshakya23@my.whitworth.edu)<br/>
 [Munkhoo](mailto:mtserenpurev24@my.whitworth.edu)<br/>
