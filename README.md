@@ -23,7 +23,6 @@ Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc0
 [Phuc](mailto:pca22@my.whitworth.edu)<br/>
 [Michael Lie](mailto:mlie23@my.whitworth.edu)<br/>
 
-
 # Step 1. Setup
 ## Things you will need
 1. [Git bash](https://git-scm.com/downloads)
