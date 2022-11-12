@@ -8,7 +8,6 @@ Github link: [github.com/hoangphuc05/git-workshop](https://github.com/hoangphuc0
 
 # Contributors
 ## Fall 2022 Contributors
-Replace this line (line 10), with the following content: 
 [Owen Foster](mailto:ofoster24@my.whitworth.edu)<br/>
 
 ## Spring 2022 Contributors
